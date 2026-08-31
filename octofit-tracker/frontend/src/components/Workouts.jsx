@@ -1,3 +1,7 @@
+/**
+ * Workouts Component
+ * API Endpoint: https://${CODESPACE_NAME}-8000.app.github.dev/api/workouts
+ */
 import { useState, useEffect } from 'react'
 import { fetchFromApi, extractDataFromResponse } from '../utils/api'
 

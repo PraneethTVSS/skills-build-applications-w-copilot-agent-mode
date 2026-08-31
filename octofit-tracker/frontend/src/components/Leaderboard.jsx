@@ -1,3 +1,7 @@
+/**
+ * Leaderboard Component
+ * API Endpoint: https://${CODESPACE_NAME}-8000.app.github.dev/api/leaderboard
+ */
 import { useState, useEffect } from 'react'
 import { fetchFromApi, extractDataFromResponse } from '../utils/api'
 
