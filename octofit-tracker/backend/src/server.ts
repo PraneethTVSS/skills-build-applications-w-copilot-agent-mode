@@ -22,7 +22,7 @@ const getApiUrl = () => {
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
-    message: 'OctoFit Tracker API is running',
+    message: 'OctoFit Tracker API is running ',
     apiUrl: getApiUrl()
   });
 });
